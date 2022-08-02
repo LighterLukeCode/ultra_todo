@@ -1,0 +1,70 @@
+.wrapper {
+  background-color: blueviolet;
+  padding: 100px 100px;
+  color: blueviolet;
+  box-sizing: content-box;
+}
+
+button {
+  border: 1px solid blueviolet;
+  border-radius: 25px;
+}
+
+.container {
+  width: 1000px;
+  background-color: rgb(28, 17, 51);
+  color: aqua;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title__content {
+}
+
+.title {
+  text-align: center;
+  color: blueviolet;
+  width: 100%;
+}
+
+.input {
+  border: 1px solid blueviolet;
+  margin-right: 30px;
+  &__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.task {
+  &__inner {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    border: 1px solid #fff;
+    width: 100px;
+  }
+}
+
+.action__btn {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.text {
+  display: block;
+  width: 100px;
+  height: 50px;
+}
