@@ -15,11 +15,14 @@ button {
   background-color: rgb(28, 17, 51);
   color: aqua;
   margin: 0 auto;
+  border-radius: 25px;
+  border: 5px solid #fff;
 }
 
 .inner {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 25px;
 }
 
 .title__content {
@@ -53,7 +56,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 40px 40px;
-    border: 1px solid #fff;
+    justify-content: flex-end;
     width: 100px;
   }
 }
