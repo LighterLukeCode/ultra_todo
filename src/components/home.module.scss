@@ -9,6 +9,26 @@ button {
   border: 1px solid blueviolet;
   border-radius: 25px;
 }
+.filterBtn {
+  margin-top: 20px;
+  margin-right: 10px;
+  &__active {
+    background-color: greenyellow;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  &__complete {
+    background-color: #dc143c;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}
+
+span {
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 
 .container {
   width: 1000px;
@@ -23,6 +43,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   border-radius: 25px;
+  justify-content: center;
 }
 
 .title__content {
@@ -50,6 +71,8 @@ button {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 
   &__item {
@@ -70,4 +93,10 @@ button {
   display: block;
   width: 100px;
   height: 50px;
+  text-align: center;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
 }
